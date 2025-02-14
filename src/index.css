@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.heading,
+.mainHeading {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-wrap: nowrap;
+  text-shadow: 2px 2px 4px #000000bb;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.mainHeading {
+  text-align: center;
+  color: white;
+  font-size: calc(3vw + 30px);
+}
+.MyButton {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.hero {
+  background-color: black;
+  min-height: 100vh;
+  background-image: url(./images/landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+}
+.paragraph {
+  color: #9a9a9a;
+  text-align: left;
+}
+.about .container {
+  display: flex;
+  gap: 50px;
+  padding: 40px;
+}
+.download-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #3d3d3d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.skills {
+  background-color: #3d3d3d;
+  padding: 50px 0;
+}
+.skills-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.skills-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 30px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #cccccc;
+}
+.skill-name {
+  width: 80px;
+  background-color: #505050;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.focus-container {
+  text-align: center;
+  color: #fff;
+}
+.focus-divider {
+  height: 1px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: none;
+  width: 200px;
+}
+.focus-list {
+  list-style: none;
+  text-align: left;
+}
+.focus-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #959188;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  width: 400px;
+}
+
+.card-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-divider {
+  width: 70px;
+  height: 1px;
+  background-color: #ffffff;
+  border: none;
+}
+.cards {
+  gap: 20px;
+  justify-content: center;
+}
+.portfolio {
+  padding: 50px 0;
+}
+.footer {
+  padding: 30px 0;
+  background-color: #3d3d3d;
+}
+.footer p,
+.footer h5 {
+  color: white;
+}
